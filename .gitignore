@@ -2,6 +2,8 @@
 .classpath
 .project
 target
+bin
+gen
 build
 dist
 .svn
