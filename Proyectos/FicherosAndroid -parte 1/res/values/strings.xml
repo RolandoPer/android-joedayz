@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FicherosAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+<!--     FICHEROS -->
+	<string name="textMemInt">Manejo en la Memoria Interna</string>
+	<string name="btnWriteInt">Write Mem. Int</string>
+    <string name="btnReadInt">Read Mem. Int</string>
+    
+</resources>

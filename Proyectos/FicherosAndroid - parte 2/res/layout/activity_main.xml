@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtMenExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtMenExt" />
+
+    <EditText
+        android:id="@+id/editTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMenExt"
+        android:layout_below="@+id/txtMenExt"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnWriteMenExt"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTitulo"
+        android:layout_below="@+id/editTitulo"
+        android:layout_marginTop="102dp"
+        android:text="@string/btnWriteMenExt" />
+
+    <Button
+        android:id="@+id/btnReadMenExt"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnWriteMenExt"
+        android:layout_alignBottom="@+id/btnWriteMenExt"
+        android:layout_toRightOf="@+id/btnWriteMenExt"
+        android:text="@string/btnReadMenExt" />
+
+    <EditText
+        android:id="@+id/editContenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTitulo"
+        android:layout_below="@+id/editTitulo"
+        android:layout_marginTop="21dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtRecurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnWriteMenExt"
+        android:layout_below="@+id/btnWriteMenExt"
+        android:layout_marginTop="49dp"
+        android:text="@string/txtRecurso" />
+
+    <Button
+        android:id="@+id/btnRecurso"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtRecurso"
+        android:layout_below="@+id/txtRecurso"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnRecurso" />
+
+</RelativeLayout>
