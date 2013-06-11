@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoSherkLock.iml" filepath="$PROJECT_DIR$/DemoSherkLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gen-external-apklibs/~apklib-com.actionbarsherlock_library_4.0.0.iml" filepath="$PROJECT_DIR$/gen-external-apklibs/~apklib-com.actionbarsherlock_library_4.0.0.iml" />
+    </modules>
+  </component>
+</project>
+
